@@ -65,6 +65,7 @@ Bjud in följande användare till ert case repo:
 - Preliminärt datum för redovisning av caset är onsdagen den 5 februari kl 08:45. Feedback följer under vecka 7.
 - Caset ska finnas färdigt i ett Gihub repo i samband med redovisningen
 - Tänk på att inte visa console.log() i ett färdigt projekt.
+- Länka in er figma-skiss i er README.md fil
 
 Förbered 5 minuters redovisning enligt följande mall:
 
