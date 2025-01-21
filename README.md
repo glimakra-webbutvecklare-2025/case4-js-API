@@ -20,7 +20,7 @@ Ni väljer helt själva API:et. Ni kan välja ett som ni hittar på nätet men h
 ## Grundläggande Krav
 - Applikationen ska vara responsiv och fungera på **både desktop och mobil**.
 - Applikationen ska vara en SPA (Single Page Application) och använda sig av JavaScript för att byta ut innehåll utan att ladda om sidan. Användaren upplever olika sidor men i bakgrunden är det en enda sida som skiftar innehåll (view).
-- Applikationen ska ha en header, footer, nav och andra lämpliga sematiska element.
+- Applikationen ska ha en header, footer, (nav) och andra lämpliga sematiska element.
 - Applikationen ska ha en landningssida som hanterar sökningar.
 - Applikationen ska ha en view som visar resultatet av sökningen.
 
