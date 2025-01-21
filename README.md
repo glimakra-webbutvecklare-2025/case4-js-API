@@ -16,6 +16,7 @@ Ni väljer helt själva API:et. Ni kan välja ett som ni hittar på nätet men h
 - https://pokeapi.co/, Pokemon API
 - https://www.thecocktaildb.com/api.php, The Cocktail DB
 - https://swapi.dev/, Star Wars API
+- https://github.com/public-apis/public-apis?tab=readme-ov-file, alla API:er
 
 ## Grundläggande Krav
 - Applikationen ska vara responsiv och fungera på **både desktop och mobil**.
