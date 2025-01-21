@@ -1,9 +1,9 @@
-# case4 js API
+# Case4 JavaScript API
 
 ## Introduktion
 I caset ska ni arbeta individuellt och skapa en applikation (webbsida) som visualiserar data som hämtas från ett API. Applikation ska visualisera data som kan hämtas via ett API som ni själva väljer.
 
-Att visualisera data innebär i praktiken att ni med HTML, CSS och JavaScript ska skapa ett dynamiskt galleri med det innehåll från det API ni väljer.
+Att visualisera data innebär i praktiken att ni med HTML, CSS och JavaScript ska skapa ett dynamiskt flöde med det innehåll från det API ni väljer.
 
 Det ska vara en applikation som har header, footer, nav och andra lämpliga sematiska element. Första gången applikationen visas ska den fungera som en landningssida som hanterar sökningar. Sidan ska också ha en genomgående design som passar till det API ni väljer. 
 
@@ -55,6 +55,11 @@ Bjud in följande användare till ert case repo:
 - andsju (Anders)
 - addkolon (Mattias)
 
+## Angående AI
+- AI verktyg som ChatGPT är tillåtet att använda under kravet att alla frågor som bidrar till kod i er inlämning ska dokumenteras. 
+- Förslag på filnamn är `log.md` eller `prompts.md`.
+- Vi förutsätter att ni har djupgående förståelse över all kod i er inlämning. En godkänd modul innebär att ni kan ge goda svar på de frågor vi lärare har angående koden. 
+
 ## Inlämning och redovisning
 - Preliminärt datum för redovisning av caset är onsdagen den 5 februari kl 08:45. Feedback följer under vecka 7.
 - Caset ska finnas färdigt i ett Gihub repo i samband med redovisningen
@@ -65,6 +70,7 @@ Förbered 5 minuters redovisning enligt följande mall:
 - visa wireframes skisser
 - demonstrera applikationen
 - visa exempel på annan funktionalitet (ex ngn av utmaningarna)
+- visa hur AI har stöttat ert arbete (visa upp `log.md`) 
 - berätta vad du är mest nöjd med (design, kod, struktur...)
 - berätta vad du skulle vilja att applikationen kan göra, men inte hunnit att koda
 - redovisning sker i bokstavsordning (förnamn A-Ö)
