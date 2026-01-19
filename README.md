@@ -23,15 +23,29 @@ Ni väljer helt själva API:et. Ni kan välja ett som ni hittar på nätet men h
 - Applikationen ska vara en SPA (Single Page Application) och använda sig av JavaScript för att byta ut innehåll utan att ladda om sidan. Användaren upplever olika sidor men i bakgrunden är det en enda sida som skiftar innehåll (view).
 - Applikationen ska ha en header, footer, (nav) och andra lämpliga sematiska element.
 - Applikationen ska ha en landningssida som hanterar sökningar.
-- Applikationen ska ha en view som visar resultatet av sökningen.
+- Applikationen ska ha ett html element som visar resultatet av sökningen.
+- Applikationen ska ha ett html element som visar en detaljerad beskrivning av ett valt objekt. Ytterligare information ska hämtas via fetch från objektet.
+
+T.ex
+```
+// Listan med objekt
+[{"name":"bulbasaur","url":"https://pokeapi.co/api/v2/pokemon/1/"},{"name":"ivysaur","url":"https://pokeapi.co/api/v2/pokemon/2/"},{"name":"venusaur","url":"https://pokeapi.co/api/v2/pokemon/3/"},{"name":"charmander","url":"https://pokeapi.co/api/v2/pokemon/4/"},{"name":"charmeleon","url":"https://pokeapi.co/api/v2/pokemon/5/"},{"name":"charizard","url":"https://pokeapi.co/api/v2/pokemon/6/"},{"name":"squirtle","url":"https://pokeapi.co/api/v2/pokemon/7/"},{"name":"wartortle","url":"https://pokeapi.co/api/v2/pokemon/8/"},{"name":"blastoise","url":"https://pokeapi.co/api/v2/pokemon/9/"},{"name":"caterpie","url":"https://pokeapi.co/api/v2/pokemon/10/"},{"name":"metapod","url":"https://pokeapi.co/api/v2/pokemon/11/"},{"name":"butterfree","url":"https://pokeapi.co/api/v2/pokemon/12/"},{"name":"weedle","url":"https://pokeapi.co/api/v2/pokemon/13/"},{"name":"kakuna","url":"https://pokeapi.co/api/v2/pokemon/14/"},{"name":"beedrill","url":"https://pokeapi.co/api/v2/pokemon/15/"},{"name":"pidgey","url":"https://pokeapi.co/api/v2/pokemon/16/"},{"name":"pidgeotto","url":"https://pokeapi.co/api/v2/pokemon/17/"},{"name":"pidgeot","url":"https://pokeapi.co/api/v2/pokemon/18/"},{"name":"rattata","url":"https://pokeapi.co/api/v2/pokemon/19/"},{"name":"raticate","url":"https://pokeapi.co/api/v2/pokemon/20/"}]
+
+// Objektet vi har valt:
+{"name":"ivysaur","url":"https://pokeapi.co/api/v2/pokemon/2/"}
+
+// När användaren har klickat -> ny fetch hämta ytterligare information via fetch(https://pokeapi.co/api/v2/pokemon/2/)
+{ "abilities": [...], "cries": [...], "sprites": [...],  .. }
+```
+
+- Applikationen ska ha en loading spinner medans data hämtas.
 
 ## Utmaningar
-- Applikationen ska ha en view som visar en detaljerad beskrivning av ett objekt.
-- Applikationen ska ha en loading spinner medans data hämtas.
+- Applikationen ska stödja "Sparade Favoriter". En en separat lista med sparade resurser (via LocalStorage) som finns kvar efter omstart.
 - Applikationen ska stödja någon form av inställningsbar sortering. (T.ex Bokstavsordning, datum, antal, etc)
 
 ## Design Krav (Grundläggande)
-- Alla skisser skall göras i Figma
+- En HI-FI design i Figma
 - Applikationen ska ha en genomgående design som passar till det API ni väljer
 - Designa med minst en Komponent och en Auto Layout 
 
@@ -48,7 +62,7 @@ korrekt formaterat kod
 Applikationen får inte använda externa ramverk, utan det är "vanilla" JavaScript och CSS som gäller. Dela upp struktur, innehåll, design och logik. Använd externa filer för CSS och JavaScript.
 
 ## Så börjar du
-Skapa ett privat repo på GitHub och koppla det till din lokala utvecklingsmiljö. Under projektet - senast 27 januari bjuder du in dina lärare. Se Settings -> Manage access -> Add people
+Börja med er Figma-skiss och dela den med Mattais. Sedan skapa ett privat repo på GitHub och koppla det till din lokala utvecklingsmiljö. Under projektet - senast 27 januari bjuder du in dina lärare. Se Settings -> Manage access -> Add people
 
 Bjud in följande användare till ert case repo:
 
@@ -56,20 +70,22 @@ Bjud in följande användare till ert case repo:
 - andsju (Anders)
 - addkolon (Mattias)
 
+Länka er Figma skiss till README.md
+
 ## Angående AI
-- AI verktyg som ChatGPT är tillåtet att använda under kravet att alla frågor som bidrar till kod i er inlämning ska dokumenteras. 
-- Förslag på filnamn är `log.md` eller `prompts.md`.
+- AI verktyg som ChatGPT är tillåtet att använda under kravet att alla frågor som bidrar till kod i er inlämning ska dokumenteras i en fil: `prompts.md`.
 - Vi förutsätter att ni har djupgående förståelse över all kod i er inlämning. En godkänd modul innebär att ni kan ge goda svar på de frågor vi lärare har angående koden. 
 
 ## Inlämning och redovisning
-- Preliminärt datum för redovisning av caset är onsdagen den 5 februari kl 08:45. Feedback följer under vecka 7.
+- Halvtidsredovisning för redovisning av Hi-fi skiss med Mattias X janauari kl XX:XX.
+- Preliminärt datum för redovisning av caset är onsdagen den 4 februari kl 08:45. Feedback följer under vecka 7.
 - Caset ska finnas färdigt i ett Gihub repo i samband med redovisningen
 - Tänk på att inte visa console.log() i ett färdigt projekt.
 - Länka in er figma-skiss i er README.md fil
 
 Förbered 5 minuters redovisning enligt följande mall:
 
-- visa wireframes skisser
+- Visa er Figma Design
 - demonstrera applikationen
 - visa exempel på annan funktionalitet (ex ngn av utmaningarna)
 - visa hur AI har stöttat ert arbete (visa upp `log.md`) 
