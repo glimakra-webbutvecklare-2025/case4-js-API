@@ -22,9 +22,9 @@ Ni väljer helt själva API:et. Ni kan välja ett som ni hittar på nätet men h
 - Applikationen ska vara responsiv och fungera på **både desktop och mobil**.
 - Applikationen ska vara en SPA (Single Page Application) och använda sig av JavaScript för att byta ut innehåll utan att ladda om sidan. Användaren upplever olika sidor men i bakgrunden är det en enda sida som skiftar innehåll (view).
 - Applikationen ska ha en header, footer, (nav) och andra lämpliga sematiska element.
-- Applikationen ska ha en landningssida som hanterar sökningar.
-- Applikationen ska ha ett html element som visar resultatet av sökningen.
-- Applikationen ska ha ett html element som visar en detaljerad beskrivning av ett valt objekt. Ytterligare information ska hämtas via fetch från objektet.
+- När applikationen startar ska sidan fungera som en startsida / landningssida. 
+- En användare ska därefter interagera med sidan (submit, scroll, touch ...) för att hämta data via fetch.
+- I det resultat som presenteras ska det därefter vara möjligt att visa detaljer om utvald data. Här ska ett nytt fetch anrop ligga till grund för det som presenteras
 
 T.ex
 ```
