@@ -77,7 +77,7 @@ Länka er Figma skiss till README.md
 - Vi förutsätter att ni har djupgående förståelse över all kod i er inlämning. En godkänd modul innebär att ni kan ge goda svar på de frågor vi lärare har angående koden. 
 
 ## Inlämning och redovisning
-- Halvtidsredovisning för redovisning av Hi-fi skiss med Mattias X janauari kl XX:XX.
+- Halvtidsredovisning för redovisning av Hi-fi skiss med Mattias 27 janauari kl 08:45.
 - Preliminärt datum för redovisning av caset är onsdagen den 4 februari kl 08:45. Feedback följer under vecka 7.
 - Caset ska finnas färdigt i ett Gihub repo i samband med redovisningen
 - Tänk på att inte visa console.log() i ett färdigt projekt.
