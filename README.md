@@ -21,6 +21,8 @@ Ni väljer helt själva API:et. Ni kan välja ett som ni hittar på nätet men h
 ## Grundläggande Krav
 - Applikationen ska vara responsiv och fungera på **både desktop och mobil**.
 - Applikationen ska vara en SPA (Single Page Application) och använda sig av JavaScript för att byta ut innehåll utan att ladda om sidan. Användaren upplever olika sidor men i bakgrunden är det en enda sida som skiftar innehåll (view).
+- Minst 10 commits som visar kontinuerligt arbete under arbetsperioden
+- En README.md med kort förklaring vilka funktioner applikationen stödjer och eventuell hur man får en API-nyckel om det krävs.
 - Applikationen ska ha en header, footer, (nav) och andra lämpliga sematiska element.
 - När applikationen startar ska sidan fungera som en startsida / landningssida. 
 - En användare ska därefter interagera med sidan (submit, scroll, touch ...) för att hämta data via fetch.
@@ -78,7 +80,7 @@ Länka er Figma skiss till README.md
 
 ## Inlämning och redovisning
 - Halvtidsredovisning för redovisning av Hi-fi skiss med Mattias 27 janauari kl 08:45.
-- Preliminärt datum för redovisning av caset är onsdagen den 4 februari kl 08:45. Feedback följer under vecka 7.
+- Redovisning av caset är onsdagen den 4 februari kl 10:25. Feedback följer under vecka 7
 - Caset ska finnas färdigt i ett Gihub repo i samband med redovisningen
 - Tänk på att inte visa console.log() i ett färdigt projekt.
 - Länka in er figma-skiss i er README.md fil
